@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: Text('Flatter layout samplwe'),
         ),
-        body: Column(
+        body: ListView(
           children: <Widget>[
             Image.asset('images/lake.jpg',width: 600.0,height: 240.0,fit:BoxFit.cover),
             titleSection(),
